@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Hangman - MVC</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 id="heading">subject: technology</h1>
+        <div id="wordDisplay"></div>
+        <br />
+
+        <div id="keyboardDisplay"></div>
+
+        <br />
+        <input type="text" placeholder="Guess the word" id="guessWord" />
+        <button id="guessButton" class="buttons">Enter</button>
+        <br /><br />
+
+        <div id="livesRemaining"></div>
+        <button id="restartButton" class="buttons">Restart</button>
+        <br /><br />
+
+        <div id="youWin">
+            <p>You Win!</p>
+            <button id="playAgain">Play Again</button>
+        </div>
+    </div>
+
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+
+</html>
